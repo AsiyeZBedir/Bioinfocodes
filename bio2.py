@@ -23,10 +23,10 @@ def find_genes(dna):
 
 # Test 
 if __name__ == "__main__":
-    print("DNA Dizisi:", dna_sequence)
+    print("DNA Sequence:", dna_sequence)
     genes = find_genes(dna_sequence)
     if genes:
         for gene_start, gene_end in genes:
-            print(f"Gen Başlangıç: {gene_start}, Gen Bitiş: {gene_end}")
+            print(f"Gen Start: {gene_start}, Gen Bitiş: {gene_end}")
     else:
-        print("Herhangi bir gen bulunamadı.")
+        print("The gene has nit been found.")
