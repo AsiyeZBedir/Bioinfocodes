@@ -35,6 +35,6 @@ def codon_to_amino_acid(codon):
 
 # Test
 if __name__ == "__main__":
-    print("DNA Dizisi:", dna_sequence)
+    print("DNA Sequence:", dna_sequence)
     protein_sequence = dna_to_protein(dna_sequence)
-    print("Amino Asit Dizisi:", protein_sequence)
+    print("Amino Acid Sequence:", protein_sequence)
