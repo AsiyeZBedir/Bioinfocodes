@@ -21,7 +21,7 @@ def reverse_sequence(dna):
 
 # Test
 if __name__ == "__main__":
-    print("DNA Dizisi:", dna_sequence)
-    print("Baz Çiftleri Sayısı:", count_base_pairs(dna_sequence))
-    print("GC Oranı:", calculate_gc_ratio(dna_sequence))
-    print("Tersine Çevrilmiş Dizi:", reverse_sequence(dna_sequence))
+    print("DNA Sequence:", dna_sequence)
+    print("Base Pairs:", count_base_pairs(dna_sequence))
+    print("GC Ratio:", calculate_gc_ratio(dna_sequence))
+    print("Reverse DNA Sequence:", reverse_sequence(dna_sequence))
